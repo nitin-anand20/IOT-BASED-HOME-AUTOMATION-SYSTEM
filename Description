@@ -1,0 +1,27 @@
+🔧 How to Run
+
+Open Arduino IDE.
+
+Install ESP8266 board package (Boards Manager → search “ESP8266” → install).
+
+Select NodeMCU 1.0 (ESP-12E Module) under Tools → Board.
+
+Replace YOUR_WIFI_SSID and YOUR_WIFI_PASSWORD.
+
+Wire relays:
+
+IN1 → D1
+
+IN2 → D2
+
+IN3 → D3
+
+IN4 → D4
+
+VCC → 5V, GND → GND
+
+Upload the code.
+
+Open Serial Monitor → Copy IP Address.
+
+Open browser → type http://<IP> → control appliances!
